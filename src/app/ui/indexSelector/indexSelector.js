@@ -31,6 +31,12 @@
 
 		_indexChanged_handler: function() {
 			this.fire("indexChanged", this.el.find("SELECT").val());
+
+			this.el.find("SELECT").chosen({
+				enable_split_word_search:true,
+				search_contains:true
+			});  
+
 		},
 
 		_select_template: function(options) {

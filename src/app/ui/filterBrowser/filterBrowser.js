@@ -62,6 +62,11 @@
 		
 		_addFilterRow_handler: function() {
 			this.filtersEl.append(this._filter_template());
+
+			$(".field").chosen({
+				enable_split_word_search:true,
+				search_contains:true
+			});			
 		},
 		
 		_removeFilterRow_handler: function(jEv) {

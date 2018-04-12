@@ -3,11 +3,13 @@ exports.vendorJs = [
 	'src/vendor/joey/joey.js',
 	'src/vendor/nohtml/jquery-nohtml.js',
 	'src/vendor/graphael/g.raphael.standalone.js',
-	'src/vendor/dateRangeParser/date-range-parser.js'
+	'src/vendor/dateRangeParser/date-range-parser.js',
+	'src/vendor/chosen/chosen.jquery.js',
 ];
 
 exports.vendorCss = [
-	'src/vendor/font-awesome/css/font-awesome.css'
+	'src/vendor/font-awesome/css/font-awesome.css',
+	'src/vendor/chosen/chosen.css'
 ];
 
 exports.srcJs = [
